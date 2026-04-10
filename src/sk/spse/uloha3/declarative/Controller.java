@@ -1,5 +1,6 @@
 package sk.spse.uloha3.declarative;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 
@@ -17,5 +18,11 @@ public class Controller {
     private void incrementCounter() {
         counter++;
         counterField.setText(String.valueOf(counter));
+    }
+
+    public void openLink(ActionEvent actionEvent) {
+    }
+
+    public void close(ActionEvent actionEvent) {
     }
 }

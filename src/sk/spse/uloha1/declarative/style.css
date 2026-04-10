@@ -1,0 +1,13 @@
+.text-field {
+    -fx-border-color: #580c2d;
+    -fx-opacity: 0.8;
+}
+.label {
+    -fx-text-fill: #930b1e;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+#Vbox {
+    -fx-background-image: url("https://oop.wagjo.com/assets/calculator.jpeg");
+    -fx-background-size: cover;
+}
