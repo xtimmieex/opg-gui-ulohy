@@ -27,7 +27,7 @@
     </top>
     <left>
         <ImageView id="image" fitHeight="180" fitWidth="180" preserveRatio="true">
-            <image >
+            <image>
                 <Image url="@spse.png" />
             </image>
             <BorderPane.margin>

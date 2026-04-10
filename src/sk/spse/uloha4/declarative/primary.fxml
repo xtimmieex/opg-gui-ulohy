@@ -15,22 +15,22 @@
       fx:controller="sk.spse.uloha4.declarative.Controller">
     <TilePane prefColumns="4" VBox.vgrow="ALWAYS">
         <VBox fx:id="vbox1" alignment="CENTER" prefWidth="175" prefHeight="300" style="-fx-background-color: blue;">
-            <ImageView fitWidth="160" fitHeight="280" preserveRatio="true">
+            <ImageView fx:id="img1" fitWidth="160" fitHeight="280" preserveRatio="true">
                 <image><Image url="@soup2.png"/></image>
             </ImageView>
         </VBox>
         <VBox fx:id="vbox2" alignment="CENTER" prefWidth="175" prefHeight="300" style="-fx-background-color: yellow;">
-            <ImageView fitWidth="160" fitHeight="280" preserveRatio="true">
+            <ImageView fx:id="img2" fitWidth="160" fitHeight="280" preserveRatio="true">
                 <image><Image url="@soup2.png"/></image>
             </ImageView>
         </VBox>
         <VBox fx:id="vbox3" alignment="CENTER" prefWidth="175" prefHeight="300" style="-fx-background-color: green;">
-            <ImageView fitWidth="160" fitHeight="280" preserveRatio="true">
+            <ImageView fx:id="img3" fitWidth="160" fitHeight="280" preserveRatio="true">
                 <image><Image url="@soup2.png"/></image>
             </ImageView>
         </VBox>
         <VBox fx:id="vbox4" alignment="CENTER" prefWidth="175" prefHeight="300" style="-fx-background-color: red;">
-            <ImageView fitWidth="160" fitHeight="280" preserveRatio="true">
+            <ImageView fx:id="img4" fitWidth="160" fitHeight="280" preserveRatio="true">
                 <image><Image url="@soup2.png"/></image>
             </ImageView>
         </VBox>
