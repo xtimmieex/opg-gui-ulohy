@@ -1,0 +1,31 @@
+.table-view .table-cell {
+    -fx-text-fill: #7ee57e;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #616161;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #424242;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: brown;
+}
+.table-view .column-header-background .label {
+    -fx-text-fill: #7ee57e;
+}
+.table-view .column-header {
+    -fx-text-fill: #7ee57e;
+    -fx-background-color: linear-gradient(#333 0%, #aaa 100%);
+}
+
+#button {
+    -fx-padding: 10px 20px 10px 20px;
+}
+
+#Hbox {
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}

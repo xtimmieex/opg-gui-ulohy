@@ -39,7 +39,7 @@ public class Controller {
             pohlavie = "nevybraté";
         }
 
-        String message = "Užívateľské " + username + "(" + pohlavie + ")" + "s heslom " + password;
+        String message = "Užívateľ:  " + username + " (" + pohlavie + ") " + "s heslom: " + password;
 
         Alert alert = new Alert(AlertType.INFORMATION);
         alert.setTitle("Registrácia užívateľa");
